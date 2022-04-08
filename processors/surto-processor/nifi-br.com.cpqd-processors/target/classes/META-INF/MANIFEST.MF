@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Built-By: luisdj
+Build-Jdk: 16.0.2
+Specification-Title: nifi-br.com.cpqd-processors
+Specification-Version: 0.0
+Specification-Vendor: Apache NiFi Project
+Implementation-Title: nifi-br.com.cpqd-processors
+Implementation-Version: sample
+Implementation-Vendor-Id: sample-processor
+Implementation-Vendor: Apache NiFi Project
+Implementation-URL: http://nifi.apache.org/nifi-nar-bundles/1.0-SNAPSHOT
+ /nifi-br.com.cpqd-processors
+Created-By: Maven Integration for Eclipse
+
