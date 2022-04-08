@@ -12,16 +12,6 @@ This is a PoC to integrate NiFi with Dojot
       - [Install](#install)
     - [What will do?](#what-will-do)
 
-Exemplo:
-```bash
-    ...
-    container_name: emsp_web
-    environment:
-    - DOCKER_URL_API=https://cs3060api.cpqd.com.br/emsp
-    volumes:
-    ...
-```
-
 ## NiFi
 
 ### What is NiFi?
