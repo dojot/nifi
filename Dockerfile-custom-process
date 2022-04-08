@@ -1,0 +1,3 @@
+FROM apache/nifi:latest
+COPY nifi-br.com.cpqd-nar-sample.nar /opt/nifi/nifi-current/lib/
+EXPOSE 8080
