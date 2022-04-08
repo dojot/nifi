@@ -1,10 +1,10 @@
-# nifi:
+# NiFi
 
-This is a PoC to integrate NiFi with Dojot
+This is a PoC to integrate NiFi with Dojot and PlatIA
 
 
 # Table of Contents
-- [nifi:](#nifi)
+- [NiFi](#nifi)
 - [Table of Contents](#table-of-contents)
   - [NiFi](#nifi-1)
     - [What is NiFi?](#what-is-nifi)
@@ -24,6 +24,8 @@ We intend integrate nifi with Dojot for substitute flowbroker service.
 ### What aready do?
 
 The target of this PoC is integrate Dojot with PlatIA. We aready make a [template](./templates/template-clamper.xml) with some processors who process some information consumed by kafka processor nifi's and send a HTTP Post with a payload that contains a message tranformed whit other processors.
+
+This template can be imported in NiFi
 
 Another advance we make is a custom processor that we called ["MyProcessor"](./processors/surto-processor/) using some java libs. This is a powerful example for future implementations of custom processors.
 
