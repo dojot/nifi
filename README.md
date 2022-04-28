@@ -10,7 +10,7 @@ This is a PoC to integrate NiFi with Dojot and PlatIA
     - [What is NiFi?](#what-is-nifi)
     - [What aready do?](#what-aready-do)
       - [Install](#install)
-    - [What will do?](#what-will-do)
+    - [Load test](#load-test)
 
 ## NiFi
 
@@ -58,4 +58,6 @@ docker-compose up -d
 ```
 
 
-### What will do?
+### Load test
+
+For load test we are using the [template-clamper-with-http-mock](templates/template-clampler-with-http-mock.xml). This template has a mock for respose http previously used by endpoint of PlatIA
